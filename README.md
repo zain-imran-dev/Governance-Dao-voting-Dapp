@@ -1,6 +1,7 @@
 # Governance DAO Voting dApp
 
 A decentralized governance application built with Solidity smart contracts and Next.js frontend, enabling DAO members to create proposals, vote, and execute governance decisions on the blockchain.
+<img width="619" height="356" alt="image" src="https://github.com/user-attachments/assets/ccaa751c-262e-4b7e-8cfb-ba85406f9b45" />
 
 ## 🚀 Features
 
@@ -109,24 +110,6 @@ Open [http://localhost:3000](http://localhost:3000) to view the application.
 3. Confirm transaction in MetaMask
 4. View real-time voting results
 
-### Executing Proposals
-
-1. Wait for voting period to end
-2. If proposal passes, execute the proposal
-3. Confirm execution transaction
-
-## 🧪 Testing
-
-```bash
-# Run all tests
-npm test
-
-# Run specific test file
-npm test test/GovernanceToken.test.js
-
-# Run tests with coverage
-npm run test:coverage
-```
 
 ## 📁 Project Structure
 
@@ -149,40 +132,7 @@ governance-dao-voting-app/
 └── package.json
 ```
 
-## 🔧 Configuration
 
-### Hardhat Configuration
-- Network configuration for local development
-- Compiler settings for Solidity contracts
-- Gas optimization settings
-
-### Frontend Configuration
-- Web3 provider configuration
-- Contract address management
-- Environment variables
-
-## 🚀 Deployment
-
-### Local Development
-```bash
-# Start local blockchain
-npx hardhat node
-
-# Deploy contracts
-npx hardhat run scripts/deploy.js --network localhost
-
-# Start frontend
-cd frontend && npm run dev
-```
-
-### Testnet Deployment
-```bash
-# Deploy to testnet (e.g., Sepolia)
-npx hardhat run scripts/deploy.js --network sepolia
-
-# Verify contracts
-npx hardhat verify --network sepolia
-```
 
 ## 🤝 Contributing
 
